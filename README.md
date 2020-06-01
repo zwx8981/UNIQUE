@@ -31,6 +31,7 @@ Compute fidelity loss: eval_fidelity.m
   volume    = {abs/2005.13983},  
   year={2020}
 }  
+__________________________________________________________________________________________
 @inproceedings{zhang2020learning,  
   title={Learning to blindly assess image quality in the laboratory and wild},  
   author={Zhang, Weixia and Ma, Kede and Zhai, Guangtao and Yang, Xiaokang},  
