@@ -7,7 +7,7 @@ and
 # Requirement:
 Python 3+  
 PyTorch 1.4+  
-Successfully tested on Ubuntu18.04, other OS (i.e., other Linux version, Windows)should also be ok.
+Successfully tested on Ubuntu18.04, other OS (i.e., other Linux distributions, Windows)should also be ok.
 
 # Usage
 ## Training on multiple databases for 10 sessions
