@@ -7,7 +7,7 @@ and
 # Requirement:
 Python 3+  
 PyTorch 1.4+  
-Matlab
+Matlab  
 Successfully tested on Ubuntu18.04, other OS (i.e., other Linux distributions, Windows)should also be ok.
 
 # Usage
