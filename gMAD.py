@@ -1,11 +1,11 @@
 import torch
 from torchvision import transforms
-from BaseCNN2 import BaseCNN2
+from BaseCNN import BaseCNN
 from PIL import Image
 import os
 import scipy.io as sio
 import pandas as pd
-from OmniMain import parse_config
+from Main import parse_config
 from tqdm import tqdm
 from DBCNN import DBCNN
 from Transformers import AdaptiveResize
