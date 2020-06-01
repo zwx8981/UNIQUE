@@ -13,9 +13,9 @@ Matlab
 Successfully tested on Ubuntu18.04, other OS (i.e., other Linux distributions, Windows)should also be ok.
 
 # Usage
-## Sampling training pairs from multiple databases
+## Sampling image pairs from multiple databases
 data_all.m  
-## Combining sampled pairs to form the training set
+## Combining the sampled pairs to form the training set
 combine_train.m  
 ## Training on multiple databases for 10 sessions
 python Main.py --train True --network basecnn --representation BCNN --ranking True --fidelity True --std_modeling True --std_loss True --margin 0.025 --batch_size 128 --batch_size2 32 --image_size 384 --max_epochs 3 --lr 1e-4 --decay_interval 3 --decay_ratio 0.1 --max_epochs2 12 
