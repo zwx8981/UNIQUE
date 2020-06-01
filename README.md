@@ -1,13 +1,13 @@
 # UNIQUE
-The codebase for 
-[Uncertainty-aware blind image quality assessment in the laboratory and wild](https://arxiv.org/pdf/2005.13983.pdf) 
-and
-[Learning to blindly assess image quality in the laboratory and wild](https://arxiv.org/pdf/1907.00516.pdf) (To appear in ICIP2020)
+The codebase for  
+[Uncertainty-aware blind image quality assessment in the laboratory and wild](https://arxiv.org/pdf/2005.13983.pdf)  
+and  
+[Learning to blindly assess image quality in the laboratory and wild](https://arxiv.org/pdf/1907.00516.pdf) (To appear in ICIP2020)  
 
-#Requirement
-Python 3+
-PyTorch 1.4+
-Tested on Ubuntu18.04.
+# Requirement:
+Python 3+  
+PyTorch 1.4+  
+Successfully tested on Ubuntu18.04, other OS (i.e., other Linux version, Windows)should also be ok.
 
 # Usage
 ## Training on multiple databases for 10 sessions
