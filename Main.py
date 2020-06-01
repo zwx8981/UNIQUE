@@ -74,7 +74,7 @@ def main(cfg):
         t.fit()
     elif cfg.get_scores:
         all_mos, all_hat, all_std, all_pstd = t.get_scores()
-        scores_path = os.path.join('/home/redpanda/codebase/kede_icip/scores/', ('dbcnn_scores' + str(cfg.split) + '.mat'))
+        scores_path = os.path.join('./scores/', ('scores' + str(cfg.split) + '.mat'))
         sio.savemat(scores_path, {'mos': all_mos, 'hat': all_hat, 'std': all_std, 'pstd': all_pstd})
     else:
         test_results_srcc, test_results_plcc = t.eval()
