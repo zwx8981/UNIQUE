@@ -22,4 +22,5 @@ python find_best.py
 ## Output predicted quality scores and stds
 python Main.py --train False --get_scores True
 ## Result anlysis
-result_analysis.m
+Compute SRCC/PLCC after nonlinear mapping: result_analysis.m  
+Compute fidelity loss: eval_fidelity.m
