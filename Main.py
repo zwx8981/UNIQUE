@@ -58,6 +58,7 @@ def parse_config():
     parser.add_argument("--batch_size2", type=int, default=32)
     parser.add_argument("--image_size", type=int, default=384, help='None means random resolution')
     parser.add_argument("--max_epochs", type=int, default=3)
+    parser.add_argument("--max_epochs2", type=int, default=12)
     parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--decay_interval", type=int, default=3)
     parser.add_argument("--decay_ratio", type=float, default=0.1)
@@ -138,6 +139,7 @@ if __name__ == "__main__":
             # stage2: fine-tuning the whole network
             config.fc = False
             config.resume = True  # resuming from the latest checkpoint of stage 1
+            config.max_epochs = config.max_epochs2
             config.batch_size = config.batch_size2
             main(config)
 
