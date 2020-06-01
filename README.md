@@ -6,7 +6,7 @@ and
 
 ![image](https://github.com/zwx8981/UNIQUE/blob/master/UNIQUE_framework.png)
 
-# Requirement:
+# Prequisite:
 Python 3+  
 PyTorch 1.4+  
 Matlab  
