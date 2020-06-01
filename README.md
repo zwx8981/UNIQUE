@@ -4,7 +4,7 @@ The codebase for
 and  
 [Learning to blindly assess image quality in the laboratory and wild](https://arxiv.org/pdf/1907.00516.pdf) (To appear in ICIP2020)  
 
-![image](https://github.com/zwx8981/UNIQUE/UNIQUE_framework.png)
+![image](https://github.com/zwx8981/UNIQUE/blob/master/UNIQUE_framework.png)
 
 # Requirement:
 Python 3+  
