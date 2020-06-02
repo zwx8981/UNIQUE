@@ -111,7 +111,7 @@ if __name__ == "__main__":
     # epochs = [3+3, 7+3, 3+3, 3+3, 3+3, 3+3, 5+3, 7+3, 5+3, 3+3]
     config = parse_config()
     if config.get_scores:
-        epochs = [0, 0, 0, 0, 6+3, 0+3, 3+3, 4+3, 4+3, 3+3]
+        epochs = [6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
         for i in range(0, 10):
             config = parse_config()
             split = i + 1
