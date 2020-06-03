@@ -175,7 +175,7 @@ for split = 1:10
     fclose(fid);
     
     %for test split
-    fid = fopen(fullfile('/databaserelease2/splits2',num2str(split),'live_test.txt'),'w');
+    fid = fopen(fullfile('./databaserelease2/splits2',num2str(split),'live_test.txt'),'w');
     for i = 1:length(test_path)
         path = test_path(i);
         path = strrep(path{1,1},'\','/');
