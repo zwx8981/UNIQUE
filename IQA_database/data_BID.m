@@ -1,6 +1,6 @@
 function data_BID(num_selection)
 rng(0);
-Dir = 'BID';
+Dir = './BID';
 
 data = xlsread(fullfile(Dir, 'DatabaseGrades.xls'));
 name = data(:,1);
