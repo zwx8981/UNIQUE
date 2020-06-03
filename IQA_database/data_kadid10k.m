@@ -62,7 +62,7 @@ for split = 1:10
     %combination = all_combination(selected_index,:);
     %combination = combination(1:150*2:end,:);
     
-    fid = fopen(fullfile('.kadid10k/splits2/',num2str(split),'kadid10k_train.txt'),'w');
+    fid = fopen(fullfile('./kadid10k/splits2/',num2str(split),'kadid10k_train.txt'),'w');
     for i = 1:length(combination)
         path1_index = combination(i,1);
         path2_index = combination(i,2);
@@ -86,7 +86,7 @@ for split = 1:10
     fclose(fid);
     
        %for train_score split
-    fid = fopen(fullfile('.kadid10k/splits2',num2str(split),'kadid10k_train_score.txt'),'w');
+    fid = fopen(fullfile('./kadid10k/splits2',num2str(split),'kadid10k_train_score.txt'),'w');
     for i = 1:length(train_path)
         path = fullfile('images',train_path(i));
         path = strrep(path,'\','/');
@@ -95,7 +95,7 @@ for split = 1:10
     fclose(fid);
     
     %for test split
-    fid = fopen(fullfile('.kadid10k/splits2',num2str(split),'kadid10k_test.txt'),'w');
+    fid = fopen(fullfile('./kadid10k/splits2',num2str(split),'kadid10k_test.txt'),'w');
     for i = 1:length(test_path)
         path = fullfile('images',test_path(i));
         path = strrep(path,'\','/');
