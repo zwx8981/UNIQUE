@@ -1,6 +1,6 @@
 function data_koniq10k(num_selection)
 rng(0);
-Dir = 'koniq-10k';
+Dir = './koniq-10k';
 load(fullfile(Dir,'koniq10k_scores_and_distributions.mat'));
 data = koniq10kscoresanddistributions;
 %data = csvread(fullfile(Dir,'koniq10k_scores_and_distributions.csv'));
