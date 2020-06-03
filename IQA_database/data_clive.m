@@ -1,6 +1,6 @@
 function data_clive(num_selection)
 rng(0);
-Dir = 'ChallengeDB_release';
+Dir = './ChallengeDB_release';
 
 imdb.imgpath = cell(1,1162);
 imgpath = fullfile(Dir,'Data','AllImages_release.mat');
