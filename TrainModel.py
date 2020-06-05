@@ -282,6 +282,7 @@ class Trainer(object):
                 y2 = self.model(x2)
                 y_diff = y1 - y2
                 p = y_diff
+                self.std_loss = torch.Tesnor([0])
 
             if self.config.fidelity:
                 self.loss = self.loss_fn(p, g.detach())
