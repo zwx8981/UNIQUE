@@ -44,7 +44,7 @@ for session = 1:10
     koniq_data=textscan(fid,'%s%s%f%f%f%d');
     fclose(fid);
     
-    fid = fopen(fullfile('.','splits2',num2str(session),'train.txt'),'w');
+    fid = fopen(fullfile('./splits2',num2str(session),'train.txt'),'w');
     %live
     for i = 1:length(live_data{1,1})
         path1 = live_data(1);
