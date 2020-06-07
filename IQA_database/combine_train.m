@@ -1,11 +1,11 @@
-live_root = './databaserelease2';
-csiq_root = './CSIQ';
-tid_root = './TID2013';
-kadid_root = './kadid10k';
+live_root = 'databaserelease2';
+csiq_root = 'CSIQ';
+tid_root = 'TID2013';
+kadid_root = 'kadid10k';
 
-bid_root = './BID';
-clive_root = './ChallengeDB_release';
-koniq_root = './koniq-10k';
+bid_root = 'BID';
+clive_root = 'ChallengeDB_release';
+koniq_root = 'koniq-10k';
 
 for session = 1:10
     
