@@ -531,7 +531,7 @@ class Trainer(object):
             srcc['csiq'] = scipy.stats.mstats.spearmanr(x=q_mos, y=q_hat)[0]
             plcc['csiq'] = scipy.stats.mstats.pearsonr(x=q_mos, y=q_hat)[0]
         else:
-            srcc['csoq'] = 0
+            srcc['csiq'] = 0
             plcc['csiq'] = 0
 
         if self.config.eval_tid2013:
