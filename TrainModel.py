@@ -133,7 +133,7 @@ class Trainer(object):
                                        transform=self.test_transform,
                                        test=True)
 
-        self.knoiq10k_loader = DataLoader(self.koniq10k_data,
+        self.koniq10k_loader = DataLoader(self.koniq10k_data,
                                        batch_size=self.test_batch_size,
                                        shuffle=False,
                                        pin_memory=True,
@@ -626,7 +626,7 @@ class Trainer(object):
         if self.config.eval_koniq10k:
             q_mos = []
             q_hat = []
-            for step, sample_batched in enumerate(self.knoiq10k_loader, 0):
+            for step, sample_batched in enumerate(self.koniq10k_loader, 0):
                 x, y = sample_batched['I'], sample_batched['mos']
                 x = Variable(x)
                 x = x.to(self.device)
@@ -802,7 +802,7 @@ class Trainer(object):
         q_hat = []
         q_std = []
         q_pstd = []
-        for step, sample_batched in enumerate(self.knoiq10k_loader, 0):
+        for step, sample_batched in enumerate(self.koniq10k_loader, 0):
             x, y, std = sample_batched['I'], sample_batched['mos'], sample_batched['std']
             x = Variable(x)
             x = x.to(self.device)
