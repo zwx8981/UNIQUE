@@ -2,7 +2,7 @@
 The codebase for  
 [Uncertainty-aware blind image quality assessment in the laboratory and wild](https://arxiv.org/pdf/2005.13983.pdf)  
 and  
-[Learning to blindly assess image quality in the laboratory and wild](https://arxiv.org/pdf/1907.00516.pdf) (To appear in ICIP2020)  
+[Learning to blindly assess image quality in the laboratory and wild](https://arxiv.org/pdf/1907.00516.pdf) (ICIP2020)  
 
 ![image](https://github.com/zwx8981/UNIQUE/blob/master/UNIQUE_framework.png)
 
