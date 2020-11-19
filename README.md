@@ -28,6 +28,9 @@ python Main.py --train False --get_scores True
 Compute SRCC/PLCC after nonlinear mapping: result_analysis.m  
 Compute fidelity loss: eval_fidelity.m
 
+# Pre-trained weights
+Coming soon.
+
 # Citation
 @article{zhang2020uncertainty,  
   title={Uncertainty-aware blind image quality assessment in the laboratory and wild},  
