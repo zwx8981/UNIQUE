@@ -29,7 +29,8 @@ Compute SRCC/PLCC after nonlinear mapping: result_analysis.m
 Compute fidelity loss: eval_fidelity.m
 
 # Pre-trained weights
-Coming soon.
+https://drive.google.com/file/d/18oPH4lALm8mSdZh3fWK97MVq9w3BbEua/view?usp=sharing
+A demo is coming soon.
 
 # Citation
 @article{zhang2020uncertainty,  
