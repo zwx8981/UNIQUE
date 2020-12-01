@@ -31,7 +31,7 @@ Compute fidelity loss: eval_fidelity.m
 # Pre-trained weights
 https://drive.google.com/file/d/18oPH4lALm8mSdZh3fWK97MVq9w3BbEua/view?usp=sharing
 
-A demo is coming soon.
+python demo.py
 
 # Citation
 @article{zhang2020uncertainty,  
