@@ -31,7 +31,7 @@ Compute fidelity loss: eval_fidelity.m
 # Pre-trained weights
 Google: https://drive.google.com/file/d/18oPH4lALm8mSdZh3fWK97MVq9w3BbEua/view?usp=sharing
 
-Baidu: 链接：https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev 
+Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev 
 
 python demo.py
 
