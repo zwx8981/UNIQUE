@@ -33,7 +33,7 @@ Google: https://drive.google.com/file/d/18oPH4lALm8mSdZh3fWK97MVq9w3BbEua/view?u
 
 Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev 
 
-python demo.py
+A basic demo: python demo.py
 
 # Citation
 @article{zhang2020uncertainty,  
