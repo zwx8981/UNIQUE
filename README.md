@@ -41,7 +41,7 @@ A basic demo: python demo.py
   author={Zhang, Weixia and Ma, Kede and Zhai, Guangtao and Yang, Xiaokang},  
   journal={IEEE Transactions on Image Processing},  
   volume    = {to appear},  
-  year={2020}
+  year={2021}
 }  
 __________________________________________________________________________________________
 @inproceedings{zhang2020learning,  
