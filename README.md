@@ -39,8 +39,8 @@ A basic demo: python demo.py
 @article{zhang2020uncertainty,  
   title={Uncertainty-aware blind image quality assessment in the laboratory and wild},  
   author={Zhang, Weixia and Ma, Kede and Zhai, Guangtao and Yang, Xiaokang},  
-  journal={CoRR},  
-  volume    = {abs/2005.13983},  
+  journal={IEEE Transactions on Image Processing},  
+  volume    = {to appear},  
   year={2020}
 }  
 __________________________________________________________________________________________
