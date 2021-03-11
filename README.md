@@ -36,17 +36,20 @@ Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev
 A basic demo: python demo.py
 
 # Citation
-@article{zhang2020uncertainty,  
+@article{zhang2021uncertainty,  
   title={Uncertainty-aware blind image quality assessment in the laboratory and wild},  
   author={Zhang, Weixia and Ma, Kede and Zhai, Guangtao and Yang, Xiaokang},  
   journal={IEEE Transactions on Image Processing},  
-  volume    = {to appear},  
+  volume    = {30},
+  pages = {3474--3486},
+  month = {Mar.}
   year={2021}
 }  
 __________________________________________________________________________________________
 @inproceedings{zhang2020learning,  
   title={Learning to blindly assess image quality in the laboratory and wild},  
   author={Zhang, Weixia and Ma, Kede and Zhai, Guangtao and Yang, Xiaokang},  
-  booktitle={IEEE International Conference on Image Processing},  
+  booktitle={IEEE International Conference on Image Processing},
+  pages={111--115}
   year={2020}
 }
