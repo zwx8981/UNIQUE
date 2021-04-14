@@ -35,6 +35,11 @@ Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev
 
 A basic demo: python demo.py
 
+# Link to download the BID dataset
+The link to the BID dataset may be difficult to find online, we provide a Baidu netdisk link here.
+
+Baidu: https://pan.baidu.com/s/1TTyb0FJzUdP6muLSbVN3hQ  code: ptg0
+
 # Citation
 @article{zhang2021uncertainty,  
   title={Uncertainty-aware blind image quality assessment in the laboratory and wild},  
