@@ -40,6 +40,10 @@ The BID dataset may be difficult to find online, we provide a Baidu netdisk link
 
 Baidu: https://pan.baidu.com/s/1TTyb0FJzUdP6muLSbVN3hQ  code: ptg0
 
+# Traing/Testing Data
+In addition to the source MATLAB code to generate training/testing data, you may also find the generated files here (If you do not want to generate them yourselve or if you do not have MATLAB):
+https://drive.google.com/file/d/1u-6xmedUB0PNA5xM787OY-YfiJg195xA/view
+
 # Citation
 @article{zhang2021uncertainty,  
   title={Uncertainty-aware blind image quality assessment in the laboratory and wild},  
