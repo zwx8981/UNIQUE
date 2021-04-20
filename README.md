@@ -36,7 +36,9 @@ Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev
 A basic demo: python demo.py
 
 # Link to download the BID dataset
-The BID dataset may be difficult to find online, we provide a Baidu netdisk link here.
+The BID dataset may be difficult to find online, we provide links here:
+
+Google: https://drive.google.com/drive/folders/1Qmtp-Fo1iiQiyf-9uRUpO-YAAM0mcIey?usp=sharing
 
 Baidu: https://pan.baidu.com/s/1TTyb0FJzUdP6muLSbVN3hQ  code: ptg0
 
