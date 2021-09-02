@@ -52,6 +52,7 @@ class BaseCNN(nn.Module):
             x = self.representation(x)
         else:
             x = self.backbone.avgpool(x)
+            x = torch.flatten(x, start_dim=1)
 
         x = self.fc(x)
 
