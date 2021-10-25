@@ -26,6 +26,8 @@ ckpt = './model.pt'
 checkpoint = torch.load(ckpt)
 model.load_state_dict(checkpoint)
 
+model.eval() 
+
 image1 = './demo/test1.JPG'
 image2 = './demo/test2.png'
 image3 = './demo/test3.bmp'
