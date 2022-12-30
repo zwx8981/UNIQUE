@@ -33,7 +33,9 @@ Google: https://drive.google.com/file/d/18oPH4lALm8mSdZh3fWK97MVq9w3BbEua/view?u
 
 Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev 
 
-A basic demo: python demo.py
+# A basic demo that predict the quality of single images.
+
+python demo.py  (Make sure that the model has been appropriately set to eval mode !)
 
 # Link to download the BID dataset
 The BID dataset may be difficult to find online, we provide links here:
