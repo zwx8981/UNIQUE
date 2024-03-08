@@ -1,3 +1,12 @@
+# New! IQA-PyTorch implementation
+[**IQA-PyTorch**](https://github.com/chaofengc/IQA-PyTorch) supports UNIQUE now! Can be easily used as follows:
+
+```bash
+import pyiqa
+model = pyiqa.create_metric('unique', as_loss=False)
+score = model(img_path)
+```
+
 # UNIQUE
 The codebase for  
 [Uncertainty-aware blind image quality assessment in the laboratory and wild](https://arxiv.org/pdf/2005.13983.pdf) (TIP2021) 
@@ -41,15 +50,6 @@ Baidu: https://pan.baidu.com/s/1KKncQIoQcbxj7fQlSKUBIQ   code：yyev
 python demo.py  
 ```
 ## Very important ! Make sure that the model has been appropriately set to eval mode !
-
-# New! IQA-PyTorch implementation
-[**IQA-PyTorch**](https://github.com/chaofengc/IQA-PyTorch) supports UNIQUE now! Can be easily used as follows:
-
-```bash
-import pyiqa
-model = pyiqa.create_metric('unique', as_loss=False)
-score = model(img_path)
-```
 
 # Link to download the BID dataset
 The BID dataset may be difficult to find online, we provide links here:
